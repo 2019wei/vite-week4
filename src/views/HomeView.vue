@@ -67,6 +67,7 @@ const router = useRouter()
 //註冊
 const signIn = async () => {
   try {
+    resultMessage.value = ''
     if (checkAccount()) return
     const result = await axios.post(`${baseUrl}/sign_in`, {
       email: mailAccount.value,

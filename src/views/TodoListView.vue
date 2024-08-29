@@ -4,7 +4,7 @@
       <h1><a href="#">ONLINE TODO LIST</a></h1>
       <ul>
         <li class="todo_sm">
-          <a href="#"
+          <a href="#" @click.prevent=""
             ><span>{{ nickname }}</span></a
           >
         </li>
